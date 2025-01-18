@@ -1,0 +1,11 @@
+amamirov:
+  name: Akhmad Mamirov
+  title: Software Engineer
+  url: https://goakhmad.com
+  image_url: https://github.com/akhmadmamirov/novafolio/blob/main/public/profile.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: "/all-amamirov-articles"
+  socials:
+    linkedin: akhmadillomamirov
+    github: akhmadmamirov

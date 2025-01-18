@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+researcg:
+  label: Research
+  permalink: /research
+  description: my senior indenpendent research
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+GPU:
+  label: GPU
+  permalink: /gpu
+  description: GPUs
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+HPC:
+  label: HPC
+  permalink: /hpc
+  description: High Performance Computing
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+intro:
+  label: intro
+  permalink: /intro
+  description: Introduction about me
