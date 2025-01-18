@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# My Senior IS
 
-Hello. This is Akhmad
+Hello. This is Akhmad. I am currently working on optimizing
 
 ## Getting Started
 

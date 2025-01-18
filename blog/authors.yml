@@ -15,9 +15,21 @@ slorber:
   image_url: https://github.com/slorber.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: "/all-sebastien-lorber-articles"
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+amamirov:
+  name: Akhmad Mamirov
+  title: Software Engineer
+  url: https://goakhmad.com
+  image_url: https://github.com/akhmadmamirov.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: "/all-amamirov-articles"
+  socials:
+    linkedin: akhmadillomamirov
+    github: akhmadmamirov
