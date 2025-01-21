@@ -10,14 +10,14 @@ const Home = () => {
 
       <div className="flex gap-6">
         <a
-          href="/blog/welcome"
+          href="/blog/welcome"  target="_blank"
           className="px-6 py-3 text-lg font-semibold text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300 shadow-md hover:shadow-lg"
         >
           My Blog Posts
         </a>
 
         <a
-          href="https://goakhmad.com"
+          href="https://goakhmad.com"  target="_blank"
           className="px-6 py-3 text-lg font-semibold text-white bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors duration-300 shadow-md hover:shadow-lg"
         >
           Portfolio Website
