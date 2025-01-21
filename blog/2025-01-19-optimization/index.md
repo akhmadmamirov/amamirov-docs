@@ -16,7 +16,20 @@ There are several approaches available, including data parallelism (DP), model p
 
 ## Data Parallelism
 
+Data parallelism (DP) is used when batch sizes are too large to fit on a single machine. DP divides mini-batches evenly across data-parallel processes. In this approach, the model is duplicated on multiple devices, with each device processing a subset of the data simultaneously. Forward and backward propagation are performed on each device, and gradients are averaged across processes to update the model parameters locally.
+
+Data parallelism is often considered easier to implement than model parallelism and is sufficient for most use cases.
+
 ## Model Parallelism
+
+When a model exceeds the memory capacity of a single device, it is partitioned across multiple processors, with each processor computing its portion of the model's operations simultaneously.
+Unlike data parallelism, where the entire model is replicated across devices and each processes different batches of data, model parallelism focuses on distributing the model itself.
+
+Model parallelism can be combined with data parallelism to enable more efficient distributed training for large-scale models.
+
+![DP&MP](./data&modelParallelism.png)
+
+https://www.anyscale.com/blog/what-is-distributed-training
 
 ## Pipeline Parallelism
 
