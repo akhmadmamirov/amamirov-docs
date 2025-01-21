@@ -1,43 +1,30 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import React from 'react';
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+const Home = () => {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+      <header className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">Hi, I am Akhmad</h1>
+        <p className="text-xl text-gray-600">Welcome to my page. Discover more about my work</p>
+      </header>
+
+      <div className="flex gap-6">
+        <a
+          href="/blog/welcome"
+          className="px-6 py-3 text-lg font-semibold text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300 shadow-md hover:shadow-lg"
+        >
+          My Blog Posts
+        </a>
+
+        <a
+          href="https://goakhmad.com"
+          className="px-6 py-3 text-lg font-semibold text-white bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors duration-300 shadow-md hover:shadow-lg"
+        >
+          Portfolio Website
+        </a>
       </div>
-    </header>
+    </div>
   );
-}
+};
 
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
-}
+export default Home;
