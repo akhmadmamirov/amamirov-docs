@@ -6,7 +6,7 @@ tags: [research, gpu, hpc]
 sidebar_position: 3
 ---
 
-Hi, I am Akhmad. In this post, I share about Parallelization and memory optimization. Rest assured, my content is not AI-generated, though it has been revised for grammar and vocabulary using ChatGPT.
+Hi, I am Akhmad. In this post, I share about parallelization and memory optimization in distributed training. Rest assured, my content is not AI-generated, though it has been revised for grammar and vocabulary using ChatGPT.
 
 **Please note this is currently a draft.**
 
@@ -33,8 +33,15 @@ https://www.anyscale.com/blog/what-is-distributed-training
 
 ## Pipeline Parallelism
 
+Pipeline parallelism divides the model (groups of layers) into sequential stages. The input data is split into micro-batches, which pass through the pipeline, with each stage processing its portion of the data. At any given time, multiple micro-batches are processed simultaneously at different stages of the pipeline.
+
+![PipelineP](./pipelineP.png)
+(a) An example neural network with sequential layers is partitioned across four accelerators.
+(b) The naive model parallelism strategy results in severe under-utilization due to the sequential dependency of the network.
+(c) Pipeline parallelism divides the input mini-batch into smaller micro-batches, enabling different accelerators to work on distinct micro-batches simultaneously. Gradients are applied synchronously at the end.
+
 ## CPU offloading
 
-## Zero Memory optimization
+CPU offloading exploits the heterogeneous nature of modern compute nodes. It is used in deep learning and other computationally intensive tasks to offload resource-intensive operations from the main processor (GPU) to the CPU. This approach heavily relies on memory bandwidth and is therefore constrained by PCI-E. As a result, up to 50% of training time can be spent on GPU-CPU-GPU transfers.
 
-## SIMD, MIMD
+## Zero Memory optimization
