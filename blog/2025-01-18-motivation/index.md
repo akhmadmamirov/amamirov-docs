@@ -6,7 +6,7 @@ tags: [research, gpu, hpc]
 sidebar_position: 2
 ---
 
-Hi, I am Akhmad. In this post, I share about my motivation for my research project. Rest assured, my content is not AI-generated, though it has been revised for grammar and vocabulary using ChatGPT.
+Hi, I am Akhmad. In this post, I share about my motivation for my research project.
 
 It was the fall of 2024, and I had just started my junior year at The College of Wooster (COW). As soon as I got back to college from summer break, I was constantly searching for an idea for my senior Independent Study (IS)—a year-long research project at COW that allows seniors to dive deep research related to their major.
 
