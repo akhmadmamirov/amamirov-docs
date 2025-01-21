@@ -6,7 +6,7 @@ tags: [intro]
 sidebar_position: 1
 ---
 
-Hi, I am Akhmad. In this blog, I share my learning experiences. Rest assured, my content is not AI-generated, though it has been revised for grammar and vocabulary using ChatGPT.
+Hi, I am Akhmad. In this blog, I share my learning experiences.
 
 <!-- truncate -->
 
