@@ -49,7 +49,7 @@ In contrast, multi-core CPUs often use MIMD architecture to manage diverse compu
 - MIMD systems can execute multiple instruction streams on different data sets simultaneously, allowing them to handle a variety of workloads.
 - These systems often orchestrate tasks for GPUs and other specialized processors, ensuring efficient resource utilization.
 
-**Resouces used:**
+## Resouces used:
 
 [Computer Architecture. A quantitive approach. John L. Hennessy](https://www.amazon.com/Computer-Architecture-Quantitative-Approach-Kaufmann/dp/0128119055)
 
